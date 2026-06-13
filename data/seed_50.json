@@ -1,0 +1,1550 @@
+[
+  {
+    "name": "苹果",
+    "condition": {
+      "颜色": "红",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "可以吃的水果",
+    "confidence": 0.9,
+    "template": "水果"
+  },
+  {
+    "name": "香蕉",
+    "condition": {
+      "颜色": "黄",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "剥皮吃的水果",
+    "confidence": 0.9,
+    "template": "水果"
+  },
+  {
+    "name": "橙子",
+    "condition": {
+      "颜色": "橙",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "酸甜可口的柑橘类水果",
+    "confidence": 0.9,
+    "template": "水果"
+  },
+  {
+    "name": "草莓",
+    "condition": {
+      "颜色": "红",
+      "形状": "三角形",
+      "大小": "小"
+    },
+    "action": "香甜的小水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "葡萄",
+    "condition": {
+      "颜色": "紫",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "成串的小水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "西瓜",
+    "condition": {
+      "颜色": "绿",
+      "形状": "圆形",
+      "大小": "大"
+    },
+    "action": "夏天吃的大水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "梨",
+    "condition": {
+      "颜色": "黄",
+      "形状": "椭圆形",
+      "大小": "中"
+    },
+    "action": "清甜多汁的水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "桃子",
+    "condition": {
+      "颜色": "粉",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "有毛皮的水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "柠檬",
+    "condition": {
+      "颜色": "黄",
+      "形状": "椭圆形",
+      "大小": "小"
+    },
+    "action": "酸酸的水果，可泡水",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "芒果",
+    "condition": {
+      "颜色": "黄",
+      "形状": "椭圆形",
+      "大小": "中"
+    },
+    "action": "热带水果，香甜",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "手机",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "可以打电话和上网的电子设备",
+    "confidence": 0.9,
+    "template": "电子设备"
+  },
+  {
+    "name": "笔记本电脑",
+    "condition": {
+      "颜色": "灰",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "可以移动使用的电脑",
+    "confidence": 0.9,
+    "template": "电子设备"
+  },
+  {
+    "name": "鼠标",
+    "condition": {
+      "颜色": "黑",
+      "形状": "椭圆形",
+      "大小": "小"
+    },
+    "action": "操作电脑的输入设备",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "键盘",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "用于输入文字的电脑外设",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "电视",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "可以看电视节目的设备",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "耳机",
+    "condition": {
+      "颜色": "黑",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "听音乐的设备",
+    "confidence": 0.8,
+    "template": "电子设备"
+  },
+  {
+    "name": "台灯",
+    "condition": {
+      "颜色": "白",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "照明的灯",
+    "confidence": 0.8,
+    "template": "家居"
+  },
+  {
+    "name": "杯子",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "喝水的容器",
+    "confidence": 0.9,
+    "template": "家居"
+  },
+  {
+    "name": "碗",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "盛食物的容器",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "盘子",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "大"
+    },
+    "action": "放食物的扁平容器",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "筷子",
+    "condition": {
+      "颜色": "棕",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "吃饭用的工具",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "勺子",
+    "condition": {
+      "颜色": "灰",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "喝汤用的工具",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "椅子",
+    "condition": {
+      "颜色": "棕",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "可以坐的家具",
+    "confidence": 0.85,
+    "template": "家具"
+  },
+  {
+    "name": "桌子",
+    "condition": {
+      "颜色": "棕",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "放东西的平面家具",
+    "confidence": 0.85,
+    "template": "家具"
+  },
+  {
+    "name": "床",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "睡觉用的家具",
+    "confidence": 0.85,
+    "template": "家具"
+  },
+  {
+    "name": "沙发",
+    "condition": {
+      "颜色": "棕",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "坐着休息的家具",
+    "confidence": 0.85,
+    "template": "家具"
+  },
+  {
+    "name": "书",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "可以阅读的纸质书",
+    "confidence": 0.9,
+    "template": "纸质品"
+  },
+  {
+    "name": "笔记本",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "写字的笔记本",
+    "confidence": 0.85,
+    "template": "纸质品"
+  },
+  {
+    "name": "笔",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "写字的工具",
+    "confidence": 0.85,
+    "template": "文具"
+  },
+  {
+    "name": "剪刀",
+    "condition": {
+      "颜色": "灰",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "剪东西的工具",
+    "confidence": 0.85,
+    "template": "工具"
+  },
+  {
+    "name": "钥匙",
+    "condition": {
+      "颜色": "银",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "开锁用的工具",
+    "confidence": 0.85,
+    "template": "工具"
+  },
+  {
+    "name": "钱包",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "小"
+    },
+    "action": "装钱和卡的皮夹",
+    "confidence": 0.85,
+    "template": "随身物品"
+  },
+  {
+    "name": "背包",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "背在身上的包",
+    "confidence": 0.85,
+    "template": "随身物品"
+  },
+  {
+    "name": "手表",
+    "condition": {
+      "颜色": "黑",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "戴在手腕上看时间的",
+    "confidence": 0.85,
+    "template": "随身物品"
+  },
+  {
+    "name": "眼镜",
+    "condition": {
+      "颜色": "黑",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "戴在眼睛上帮助视力的",
+    "confidence": 0.85,
+    "template": "随身物品"
+  },
+  {
+    "name": "帽子",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "戴在头上的装饰或遮阳",
+    "confidence": 0.8,
+    "template": "衣物"
+  },
+  {
+    "name": "T恤",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "穿在上身的衣服",
+    "confidence": 0.8,
+    "template": "衣物"
+  },
+  {
+    "name": "鞋子",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "穿在脚上的",
+    "confidence": 0.8,
+    "template": "衣物"
+  },
+  {
+    "name": "花",
+    "condition": {
+      "颜色": "红",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "植物开的花，很漂亮",
+    "confidence": 0.85,
+    "template": "植物"
+  },
+  {
+    "name": "树",
+    "condition": {
+      "颜色": "绿",
+      "形状": "多边形",
+      "大小": "大"
+    },
+    "action": "高大的植物",
+    "confidence": 0.85,
+    "template": "植物"
+  },
+  {
+    "name": "草",
+    "condition": {
+      "颜色": "绿",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "地面上的绿色植物",
+    "confidence": 0.8,
+    "template": "植物"
+  },
+  {
+    "name": "猫",
+    "condition": {
+      "颜色": "橙",
+      "形状": "椭圆形",
+      "大小": "中"
+    },
+    "action": "一种可爱的宠物",
+    "confidence": 0.85,
+    "template": "动物"
+  },
+  {
+    "name": "狗",
+    "condition": {
+      "颜色": "棕",
+      "形状": "椭圆形",
+      "大小": "中"
+    },
+    "action": "人类最好的朋友",
+    "confidence": 0.85,
+    "template": "动物"
+  },
+  {
+    "name": "鸟",
+    "condition": {
+      "颜色": "白",
+      "形状": "椭圆形",
+      "大小": "小"
+    },
+    "action": "会飞的动物",
+    "confidence": 0.8,
+    "template": "动物"
+  },
+  {
+    "name": "汽车",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "路上跑的车",
+    "confidence": 0.85,
+    "template": "交通工具"
+  },
+  {
+    "name": "自行车",
+    "condition": {
+      "颜色": "黑",
+      "形状": "椭圆形",
+      "大小": "大"
+    },
+    "action": "两个轮子的交通工具",
+    "confidence": 0.85,
+    "template": "交通工具"
+  },
+  {
+    "name": "飞机",
+    "condition": {
+      "颜色": "白",
+      "形状": "长条形",
+      "大小": "大"
+    },
+    "action": "在天上飞的交通工具",
+    "confidence": 0.8,
+    "template": "交通工具"
+  },
+  {
+    "name": "篮球",
+    "condition": {
+      "颜色": "橙",
+      "形状": "圆形",
+      "大小": "大"
+    },
+    "action": "打篮球用的球",
+    "confidence": 0.85,
+    "template": "运动"
+  },
+  {
+    "name": "足球",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "大"
+    },
+    "action": "踢的球，黑白相间",
+    "confidence": 0.85,
+    "template": "运动"
+  },
+  {
+    "name": "乒乓球",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "很小的球，打乒乓球用的",
+    "confidence": 0.85,
+    "template": "运动"
+  },
+  {
+    "name": "樱桃",
+    "condition": {
+      "颜色": "红",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "小小甜甜的水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "荔枝",
+    "condition": {
+      "颜色": "红",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "热带水果，壳硬肉甜",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "龙眼",
+    "condition": {
+      "颜色": "棕",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "桂圆，甜甜的水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "榴莲",
+    "condition": {
+      "颜色": "黄",
+      "形状": "椭圆形",
+      "大小": "大"
+    },
+    "action": "有特殊气味的热带水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "菠萝",
+    "condition": {
+      "颜色": "黄",
+      "形状": "椭圆形",
+      "大小": "中"
+    },
+    "action": "热带水果，酸甜",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "猕猴桃",
+    "condition": {
+      "颜色": "棕",
+      "形状": "椭圆形",
+      "大小": "小"
+    },
+    "action": "绿色果肉的水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "柿子",
+    "condition": {
+      "颜色": "橙",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "秋天成熟的水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "石榴",
+    "condition": {
+      "颜色": "红",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "里面有很多籽的水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "柚子",
+    "condition": {
+      "颜色": "黄",
+      "形状": "圆形",
+      "大小": "大"
+    },
+    "action": "很大的柑橘类水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "哈密瓜",
+    "condition": {
+      "颜色": "绿",
+      "形状": "椭圆形",
+      "大小": "大"
+    },
+    "action": "甜瓜类水果",
+    "confidence": 0.85,
+    "template": "水果"
+  },
+  {
+    "name": "西红柿",
+    "condition": {
+      "颜色": "红",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "可以做菜的红色蔬果",
+    "confidence": 0.9,
+    "template": "蔬菜"
+  },
+  {
+    "name": "黄瓜",
+    "condition": {
+      "颜色": "绿",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "绿色的蔬菜，可生吃",
+    "confidence": 0.9,
+    "template": "蔬菜"
+  },
+  {
+    "name": "胡萝卜",
+    "condition": {
+      "颜色": "橙",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "橙色的根茎类蔬菜",
+    "confidence": 0.9,
+    "template": "蔬菜"
+  },
+  {
+    "name": "白菜",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "常见的叶类蔬菜",
+    "confidence": 0.85,
+    "template": "蔬菜"
+  },
+  {
+    "name": "土豆",
+    "condition": {
+      "颜色": "棕",
+      "形状": "椭圆形",
+      "大小": "中"
+    },
+    "action": "可以做很多菜的根茎",
+    "confidence": 0.85,
+    "template": "蔬菜"
+  },
+  {
+    "name": "茄子",
+    "condition": {
+      "颜色": "紫",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "紫色的蔬菜",
+    "confidence": 0.85,
+    "template": "蔬菜"
+  },
+  {
+    "name": "青椒",
+    "condition": {
+      "颜色": "绿",
+      "形状": "多边形",
+      "大小": "中"
+    },
+    "action": "绿色的辣椒，不辣",
+    "confidence": 0.85,
+    "template": "蔬菜"
+  },
+  {
+    "name": "玉米",
+    "condition": {
+      "颜色": "黄",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "黄色的粮食作物",
+    "confidence": 0.85,
+    "template": "蔬菜"
+  },
+  {
+    "name": "洋葱",
+    "condition": {
+      "颜色": "紫",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "会让人流泪的蔬菜",
+    "confidence": 0.85,
+    "template": "蔬菜"
+  },
+  {
+    "name": "大蒜",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "小颗的调味蔬菜",
+    "confidence": 0.85,
+    "template": "蔬菜"
+  },
+  {
+    "name": "水杯",
+    "condition": {
+      "颜色": "透明",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "喝水的透明杯子",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "酒瓶",
+    "condition": {
+      "颜色": "绿",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "装酒的瓶子",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "茶壶",
+    "condition": {
+      "颜色": "棕",
+      "形状": "圆形",
+      "大小": "中"
+    },
+    "action": "泡茶用的壶",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "锅",
+    "condition": {
+      "颜色": "黑",
+      "形状": "圆形",
+      "大小": "大"
+    },
+    "action": "做饭用的厨具",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "菜刀",
+    "condition": {
+      "颜色": "灰",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "切菜用的刀",
+    "confidence": 0.85,
+    "template": "工具"
+  },
+  {
+    "name": "砧板",
+    "condition": {
+      "颜色": "棕",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "切菜用的板子",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "保鲜盒",
+    "condition": {
+      "颜色": "透明",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "保存食物用的盒子",
+    "confidence": 0.8,
+    "template": "家居"
+  },
+  {
+    "name": "保温杯",
+    "condition": {
+      "颜色": "银",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "保温的杯子",
+    "confidence": 0.85,
+    "template": "家居"
+  },
+  {
+    "name": "纸巾",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "小"
+    },
+    "action": "擦手擦嘴用的纸",
+    "confidence": 0.8,
+    "template": "家居"
+  },
+  {
+    "name": "抹布",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "擦桌子用的布",
+    "confidence": 0.8,
+    "template": "家居"
+  },
+  {
+    "name": "尺子",
+    "condition": {
+      "颜色": "白",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "量长度的工具",
+    "confidence": 0.85,
+    "template": "文具"
+  },
+  {
+    "name": "橡皮",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "小"
+    },
+    "action": "擦铅笔字用的",
+    "confidence": 0.85,
+    "template": "文具"
+  },
+  {
+    "name": "铅笔",
+    "condition": {
+      "颜色": "黄",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "写字的笔",
+    "confidence": 0.85,
+    "template": "文具"
+  },
+  {
+    "name": "圆珠笔",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "写字用的笔",
+    "confidence": 0.85,
+    "template": "文具"
+  },
+  {
+    "name": "马克笔",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "粗头的记号笔",
+    "confidence": 0.8,
+    "template": "文具"
+  },
+  {
+    "name": "订书机",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "小"
+    },
+    "action": "订纸张用的工具",
+    "confidence": 0.85,
+    "template": "文具"
+  },
+  {
+    "name": "胶带",
+    "condition": {
+      "颜色": "透明",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "粘贴用的胶带",
+    "confidence": 0.8,
+    "template": "文具"
+  },
+  {
+    "name": "文件夹",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "夹文件的用品",
+    "confidence": 0.85,
+    "template": "文具"
+  },
+  {
+    "name": "计算器",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "小"
+    },
+    "action": "算数的电子设备",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "显示器",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "电脑的屏幕",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "太阳镜",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "遮太阳的眼镜",
+    "confidence": 0.85,
+    "template": "随身物品"
+  },
+  {
+    "name": "手表带",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "手表的表带",
+    "confidence": 0.8,
+    "template": "随身物品"
+  },
+  {
+    "name": "钥匙扣",
+    "condition": {
+      "颜色": "银",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "挂钥匙的小物件",
+    "confidence": 0.8,
+    "template": "随身物品"
+  },
+  {
+    "name": "充电宝",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "给手机充电的移动电源",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "数据线",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "给设备充电或传数据的线",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "U盘",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长方形",
+      "大小": "小"
+    },
+    "action": "存数据的小设备",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "雨伞",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "挡雨用的伞",
+    "confidence": 0.85,
+    "template": "随身物品"
+  },
+  {
+    "name": "梳子",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "小"
+    },
+    "action": "梳头发的工具",
+    "confidence": 0.85,
+    "template": "随身物品"
+  },
+  {
+    "name": "牙刷",
+    "condition": {
+      "颜色": "白",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "刷牙用的工具",
+    "confidence": 0.85,
+    "template": "随身物品"
+  },
+  {
+    "name": "毛巾",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "擦脸擦身用的布",
+    "confidence": 0.8,
+    "template": "家居"
+  },
+  {
+    "name": "月亮",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "小",
+      "位置区域": "上方"
+    },
+    "action": "夜晚天空中的月亮",
+    "confidence": 0.85,
+    "template": "自然"
+  },
+  {
+    "name": "太阳",
+    "condition": {
+      "颜色": "橙",
+      "形状": "圆形",
+      "大小": "小",
+      "位置区域": "上方"
+    },
+    "action": "白天的太阳",
+    "confidence": 0.85,
+    "template": "自然"
+  },
+  {
+    "name": "星星",
+    "condition": {
+      "颜色": "白",
+      "形状": "多边形",
+      "大小": "小",
+      "位置区域": "上方"
+    },
+    "action": "夜晚天上的星星",
+    "confidence": 0.8,
+    "template": "自然"
+  },
+  {
+    "name": "山脉",
+    "condition": {
+      "颜色": "绿",
+      "形状": "多边形",
+      "大小": "大",
+      "位置区域": "上方"
+    },
+    "action": "连绵起伏的山",
+    "confidence": 0.85,
+    "template": "自然"
+  },
+  {
+    "name": "河流",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长条形",
+      "大小": "大",
+      "位置区域": "地面"
+    },
+    "action": "流动的水",
+    "confidence": 0.85,
+    "template": "自然"
+  },
+  {
+    "name": "湖泊",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "圆形",
+      "大小": "大",
+      "位置区域": "地面"
+    },
+    "action": "静止的大片水",
+    "confidence": 0.85,
+    "template": "自然"
+  },
+  {
+    "name": "沙滩",
+    "condition": {
+      "颜色": "黄",
+      "形状": "长方形",
+      "大小": "大",
+      "位置区域": "地面"
+    },
+    "action": "海边的沙滩",
+    "confidence": 0.85,
+    "template": "自然"
+  },
+  {
+    "name": "雪",
+    "condition": {
+      "颜色": "白",
+      "形状": "不规则",
+      "大小": "小",
+      "位置区域": "上方"
+    },
+    "action": "白色的雪",
+    "confidence": 0.8,
+    "template": "自然"
+  },
+  {
+    "name": "火焰",
+    "condition": {
+      "颜色": "橙",
+      "形状": "多边形",
+      "大小": "中"
+    },
+    "action": "燃烧的火",
+    "confidence": 0.85,
+    "template": "自然"
+  },
+  {
+    "name": "冰块",
+    "condition": {
+      "颜色": "透明",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "冻成块的冰",
+    "confidence": 0.8,
+    "template": "自然"
+  },
+  {
+    "name": "平板电脑",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "大屏幕的便携电脑",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "智能手表",
+    "condition": {
+      "颜色": "黑",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "可以戴在手上的智能设备",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "路由器",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "上网用的设备",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "打印机",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "打印文件的设备",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "摄像头",
+    "condition": {
+      "颜色": "黑",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "录像或拍照的设备",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "音箱",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "放音乐用的音响",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "麦克风",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "收音录音的设备",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "游戏手柄",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "中"
+    },
+    "action": "玩游戏用的控制器",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "遥控器",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "控制电视空调用的",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "充电器",
+    "condition": {
+      "颜色": "白",
+      "形状": "长方形",
+      "size": "小"
+    },
+    "action": "给设备充电用的",
+    "confidence": 0.85,
+    "template": "电子设备"
+  },
+  {
+    "name": "羽毛球",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "打羽毛球用的球",
+    "confidence": 0.85,
+    "template": "运动"
+  },
+  {
+    "name": "网球",
+    "condition": {
+      "颜色": "绿",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "打网球用的球",
+    "confidence": 0.85,
+    "template": "运动"
+  },
+  {
+    "name": "排球",
+    "condition": {
+      "颜色": "白",
+      "形状": "圆形",
+      "大小": "大"
+    },
+    "action": "打排球用的球",
+    "confidence": 0.85,
+    "template": "运动"
+  },
+  {
+    "name": "哑铃",
+    "condition": {
+      "颜色": "灰",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "健身用的器材",
+    "confidence": 0.85,
+    "template": "运动"
+  },
+  {
+    "name": "跳绳",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "跳绳用的绳子",
+    "confidence": 0.8,
+    "template": "运动"
+  },
+  {
+    "name": "滑板",
+    "condition": {
+      "颜色": "红",
+      "形状": "长方形",
+      "大小": "大"
+    },
+    "action": "滑着玩的板子",
+    "confidence": 0.85,
+    "template": "运动"
+  },
+  {
+    "name": "泳镜",
+    "condition": {
+      "颜色": "蓝",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "游泳时戴的眼镜",
+    "confidence": 0.8,
+    "template": "运动"
+  },
+  {
+    "name": "帐篷",
+    "condition": {
+      "颜色": "绿",
+      "形状": "三角形",
+      "大小": "大"
+    },
+    "action": "露营用的帐篷",
+    "confidence": 0.85,
+    "template": "户外"
+  },
+  {
+    "name": "手电筒",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "照明的工具",
+    "confidence": 0.85,
+    "template": "工具"
+  },
+  {
+    "name": "望远镜",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "看远处用的工具",
+    "confidence": 0.85,
+    "template": "工具"
+  },
+  {
+    "name": "围巾",
+    "condition": {
+      "颜色": "红",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "围在脖子上保暖的",
+    "confidence": 0.85,
+    "template": "衣物"
+  },
+  {
+    "name": "手套",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长方形",
+      "大小": "小"
+    },
+    "action": "戴在手上保暖的",
+    "confidence": 0.85,
+    "template": "衣物"
+  },
+  {
+    "name": "袜子",
+    "condition": {
+      "颜色": "白",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "穿在脚上的",
+    "confidence": 0.85,
+    "template": "衣物"
+  },
+  {
+    "name": "皮带",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "系在腰上的带子",
+    "confidence": 0.85,
+    "template": "衣物"
+  },
+  {
+    "name": "领带",
+    "condition": {
+      "颜色": "红",
+      "形状": "长条形",
+      "大小": "中"
+    },
+    "action": "系在衬衫领口的",
+    "confidence": 0.85,
+    "template": "衣物"
+  },
+  {
+    "name": "项链",
+    "condition": {
+      "颜色": "金",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "戴在脖子上的饰品",
+    "confidence": 0.8,
+    "template": "随身物品"
+  },
+  {
+    "name": "戒指",
+    "condition": {
+      "颜色": "金",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "戴在手指上的饰品",
+    "confidence": 0.8,
+    "template": "随身物品"
+  },
+  {
+    "name": "耳环",
+    "condition": {
+      "颜色": "金",
+      "形状": "圆形",
+      "大小": "小"
+    },
+    "action": "戴在耳朵上的饰品",
+    "confidence": 0.8,
+    "template": "随身物品"
+  },
+  {
+    "name": "发夹",
+    "condition": {
+      "颜色": "黑",
+      "形状": "长条形",
+      "大小": "小"
+    },
+    "action": "夹头发用的",
+    "confidence": 0.8,
+    "template": "随身物品"
+  },
+  {
+    "name": "包",
+    "condition": {
+      "颜色": "棕",
+      "shape": "长方形",
+      "大小": "中"
+    },
+    "action": "装东西的包",
+    "confidence": 0.85,
+    "template": "随身物品"
+  }
+]

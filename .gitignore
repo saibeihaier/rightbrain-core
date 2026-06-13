@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+data/logs/
+data/user_data/
+
+# Data
+screenshots/
+experiences_after.json
+experiences_backup.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Jupyter notebooks
+.ipynb_checkpoints/.env

@@ -1,0 +1,270 @@
+{
+  "_comment": "RightBrain Genome Spec v2 - 纯声明层，不可执行",
+  "_description": "这是基因声明层，定义系统核心原则和约束。AI可以读取，但不能直接执行修改。",
+  "_version": "2.0.0",
+
+  "genome_info": {
+    "name": "RightBrain Genome",
+    "version": "2.0.0",
+    "layer": "spec",
+    "immutability_level": "kernel"
+  },
+
+  "core_principles": {
+    "cognitive_architecture": {
+      "right_brain_first": {
+        "value": true,
+        "desc": "右脑必须先于左脑处理视觉信息。不得绕过右脑直接调用大模型进行视觉识别。",
+        "enforcement": "mandatory",
+        "violation_action": "block"
+      },
+      "dual_engine": {
+        "value": true,
+        "desc": "必须同时维护新旧两套引擎，新引擎（WTA竞争+空间推理）为默认，旧引擎（相似度匹配）为兼容备选。",
+        "enforcement": "mandatory",
+        "violation_action": "warn"
+      }
+    },
+
+    "learning_mechanism": {
+      "learning_persist": {
+        "value": true,
+        "desc": "所有学习成果必须持久化到 JSON 文件，重启不丢失。",
+        "enforcement": "mandatory",
+        "violation_action": "block"
+      },
+      "dual_storage": {
+        "value": true,
+        "desc": "用户教一个新物体时，必须同时存入旧引擎和新引擎，并触发联想学习。",
+        "enforcement": "mandatory",
+        "violation_action": "block"
+      },
+      "forget_mechanism": {
+        "value": true,
+        "desc": "必须有遗忘机制：长时间未匹配的经验置信度自动衰减。",
+        "enforcement": "mandatory",
+        "violation_action": "warn"
+      }
+    },
+
+    "recognition_mechanism": {
+      "wta_competition": {
+        "value": true,
+        "desc": "新引擎必须使用 WTA 竞争（赢家通吃），不得回退到简单的相似度排序作为默认方式。",
+        "enforcement": "mandatory",
+        "violation_action": "block"
+      },
+      "spatial_reasoning": {
+        "value": true,
+        "desc": "新引擎必须包含空间推理：x/y轴位置、边缘距离、支撑面。",
+        "enforcement": "mandatory",
+        "violation_action": "warn"
+      },
+      "safety_check": {
+        "value": true,
+        "desc": "必须持续运行安全检查（桌边掉落等），不依赖于左脑参与。",
+        "enforcement": "continuous",
+        "violation_action": "block"
+      },
+      "associative_memory": {
+        "value": true,
+        "desc": "联想推理必须持续运行，不依赖于左脑。",
+        "enforcement": "continuous",
+        "violation_action": "warn"
+      }
+    },
+
+    "dialogue_mechanism": {
+      "no_unsolicited_speech": {
+        "value": true,
+        "desc": "默认模式（好奇模式关闭）下，系统不得主动说话。",
+        "enforcement": "mandatory",
+        "violation_action": "block"
+      },
+      "curiosity_switch": {
+        "value": true,
+        "desc": "必须保留'主动好奇'开关。关闭时安静，开启时可在联想推理后主动提问。",
+        "enforcement": "optional",
+        "violation_action": "ignore"
+      },
+      "learn_from_teaching": {
+        "value": true,
+        "desc": "用户说'这是XX'时必须存入经验库。不得忽略用户的教学。",
+        "enforcement": "mandatory",
+        "violation_action": "block"
+      }
+    }
+  },
+
+  "core_constraints": {
+    "_comment": "约束参数，允许在指定范围内调整",
+
+    "curiosity_threshold": {
+      "min": 0.4,
+      "max": 0.9,
+      "default": 0.6,
+      "unit": "ratio"
+    },
+
+    "wta_margin": {
+      "min": 0.01,
+      "max": 0.20,
+      "default": 0.03,
+      "unit": "ratio",
+      "desc": "WTA竞争胜出阈值（第一名超第二名的比例）"
+    },
+
+    "confidence_threshold": {
+      "min": 0.1,
+      "max": 0.9,
+      "default": 0.6,
+      "unit": "ratio"
+    },
+
+    "forget_days": {
+      "min": 1,
+      "max": 60,
+      "default": 7,
+      "unit": "days"
+    },
+
+    "forget_decay": {
+      "min": 0.01,
+      "max": 0.5,
+      "default": 0.1,
+      "unit": "ratio"
+    },
+
+    "learning_cooldown": {
+      "min": 10.0,
+      "max": 300.0,
+      "default": 30.0,
+      "unit": "seconds"
+    }
+  },
+
+  "kernel_files": {
+    "_comment": "内核文件，需要Guardian批准才能修改",
+    "files": [
+      "genome_spec.json",
+      "genome/genome.py",
+      "genome/interpreter.py",
+      "genome/enforcement.py"
+    ],
+    "require_guardian_approval": true
+  },
+
+  "algorithm_specs": {
+    "_comment": "算法规范 - 定义规则结构，不包含可执行代码",
+
+    "color_detection": {
+      "type": "hsv_segmentation",
+      "description": "HSV空间颜色分段规则",
+      "parameters": {
+        "hue_range": [0, 180],
+        "saturation_range": [0, 255],
+        "value_range": [0, 255]
+      },
+      "rules": [
+        {"condition": {"skin_hue": [0, 40], "saturation": [10, 120], "value": [40, 240]}, "result": "肤色"},
+        {"condition": {"saturation_below": 30}, "result": "gray_scale"},
+        {"condition": {"hue": [0, 10]}, "result": "红"},
+        {"condition": {"hue": [10, 22]}, "result": "橙"},
+        {"condition": {"hue": [22, 55]}, "result": "黄"},
+        {"condition": {"hue": [55, 85]}, "result": "绿"},
+        {"condition": {"hue": [85, 140]}, "result": "蓝"},
+        {"condition": {"hue": [130, 160]}, "result": "紫"}
+      ],
+      "ai_readonly": true,
+      "ai_modifiable": false
+    },
+
+    "shape_correction": {
+      "type": "contour_analysis",
+      "description": "形状修正规则 - 遮挡导致的伪三角形修正",
+      "rules": [
+        {"condition": {"verts": 3, "aspect_ratio_gt": 1.5}, "result": "长方形", "corrected": true},
+        {"condition": {"verts": 3, "aspect_ratio_lte": 1.5}, "result": "三角形", "corrected": false}
+      ],
+      "ai_readonly": true,
+      "ai_modifiable": false
+    },
+
+    "wta_decision": {
+      "type": "winner_take_all",
+      "description": "WTA竞争决策规则",
+      "rules": [
+        {"condition": {"candidate_count": 1}, "result": "winner", "confidence": 1.0},
+        {"condition": {"margin_gte": "threshold"}, "result": "winner", "confidence": "margin_ratio"},
+        {"condition": {"margin_lt": "threshold"}, "result": "uncertain", "confidence": 0.0}
+      ],
+      "ai_readonly": true,
+      "ai_modifiable": false
+    },
+
+    "memory_match": {
+      "type": "weighted_matching",
+      "description": "经验匹配计算规则",
+      "rules": [
+        {"match_type": "exact", "score": 1.0},
+        {"match_type": "shape_similar", "score": 0.7},
+        {"match_type": "color_same_group", "score": 0.6},
+        {"match_type": "position_adjacent", "score": 0.6}
+      ],
+      "ai_readonly": true,
+      "ai_modifiable": false
+    }
+  },
+
+  "evolution_policy": {
+    "_comment": "进化策略 - 定义如何安全地修改系统",
+
+    "modification_types": {
+      "bug_fix": {
+        "version_change": "patch",
+        "example": "1.0.0 -> 1.0.1",
+        "requires_approval": false,
+        "auto_apply": true
+      },
+      "enhancement": {
+        "version_change": "minor",
+        "example": "1.0.0 -> 1.1.0",
+        "requires_approval": true,
+        "auto_apply": false
+      },
+      "principle_change": {
+        "version_change": "major",
+        "example": "1.0.0 -> 2.0.0",
+        "requires_approval": "guardian",
+        "auto_apply": false,
+        "breaking_change": true
+      }
+    },
+
+    "sandbox_required": {
+      "_comment": "以下类型的修改必须经过沙箱验证",
+      "modifications": [
+        "algorithm_logic",
+        "constraint_bounds",
+        "new_principle_addition"
+      ]
+    }
+  },
+
+  "enforcement_rules": {
+    "pass_through": {
+      "_comment": "所有系统行为必须经过执行层",
+      "paths": [
+        "sensor -> enforcement -> decision",
+        "memory -> enforcement -> update",
+        "self_modify -> enforcement -> approve"
+      ]
+    },
+
+    "violation_actions": {
+      "block": "立即阻止行为，记录日志",
+      "warn": "警告但允许继续，记录日志",
+      "ignore": "记录但不干预"
+    }
+  }
+}
