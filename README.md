@@ -83,6 +83,7 @@ decision2 — 识别输出 + 安全检查
 | 基因 | `genome/` | 核心原则、算法基因、SHA256校验 |
 | 稳定层 | `stability.py` | 探针采样、漂移检测、自适应纠正 |
 | 边界执行 | `boundary_enforcer.py` | 参数钳制、好状态锚点、漂移自动回调 |
+网站：http://edu-home.cn/
 
 ## 许可证
 
